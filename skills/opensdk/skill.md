@@ -1,3 +1,8 @@
+---
+name: opensdk
+description: Generate a production-quality TypeScript and/or Python SDK from an OpenAPI 3.x specification. Use this skill when a user asks "generate an SDK from my API spec", "create a client library from openapi.json", "build a typed SDK for this API", "turn my swagger spec into a package", or any request to generate typed API clients from an OpenAPI/Swagger spec.
+---
+
 # OpenSDK — Generate a typed SDK from an OpenAPI spec
 
 You are generating a production-quality TypeScript and/or Python SDK from an OpenAPI 3.x specification. The OpenSDK repo provides battle-tested template files for the HTTP client, error handling, retries, and SSE streaming. Your job is to read the spec, copy the templates, and generate the per-API code (types, resources, client class, exports).
