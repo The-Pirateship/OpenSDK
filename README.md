@@ -2,6 +2,12 @@
 
 **Generate production-quality TypeScript and Python SDKs from any OpenAPI 3.x spec. Fully typed, with retries, streaming, and error handling out of the box.**
 
+## Install
+
+```bash
+npx skills add https://github.com/The-Pirateship/OpenSDK
+```
+
 Point Claude at your OpenAPI spec and say things like:
 - *"Generate a TypeScript SDK from my openapi.json"*
 - *"Build me a Python client for this API"*
@@ -51,12 +57,6 @@ sdk/
 6. **Cleans up** — removes the temp clone, runs a sanity check on imports and types
 
 Auth is wired automatically from `securitySchemes` — API key, Bearer token, or no-auth all handled.
-
-## Install
-
-```bash
-npx skills add https://github.com/The-Pirateship/OpenSDK --skill opensdk
-```
 
 ## Quick example
 
