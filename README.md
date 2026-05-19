@@ -1,4 +1,4 @@
-# OpenSDK — Claude Skill
+# OpenSDK
 
 **Generate production-quality TypeScript and Python SDKs from any OpenAPI 3.x spec. Fully typed, with retries, streaming, and error handling out of the box.**
 
